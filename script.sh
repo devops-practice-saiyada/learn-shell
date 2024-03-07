@@ -1,3 +1,3 @@
 ls
 ls -l
-yum list 
+yum list
