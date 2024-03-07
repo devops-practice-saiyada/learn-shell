@@ -1,3 +1,5 @@
+source
+
 dnf module disable nodejs -y >/temp/expense.log
 dnf module enable nodejs:20 -y >/temp/expense.log
 dnf install nodejs -y >/temp/expense.log
