@@ -10,8 +10,8 @@ cp backend.service /etc/systemd/system/backend.service >/tmp/expense.log
 rm -rf/app >/tmp/expense.log
 
 mkdir /app >/tmp/expense.log
-curl -o /tmp/backend.zip https://expense-artifacts.s3.amazonaws.com/expense-backend-v2.zip >/temp/expense.log
-cd /app >/temp/expense.log
+curl -o /tmp/backend.zip https://expense-artifacts.s3.amazonaws.com/expense-backend-v2.zip >/tmp/expense.log
+cd /app >/tmp/expense.log
 unzip /tmp/backend.zip >/tmp/expense.log
 
 cd /app >/tmp/expense.log
