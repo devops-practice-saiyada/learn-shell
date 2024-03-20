@@ -1,7 +1,7 @@
 name: frontend-setup
 hosts: all
 tasks:
-  -name: install nginx
+  name: install nginx
    ansible.builtin.dnf:
      name: httpd
      state: latest
